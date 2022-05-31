@@ -68,7 +68,11 @@ namespace Calculator
             }
             else if (x == "/")
             {
-                Console.WriteLine(k1.Division(a, b));
+                if (b == 0)
+                {
+                    Console.WriteLine("Nullával nem osztunk");
+                }
+                else Console.WriteLine(k1.Division(a, b));
             }
             else
             {
