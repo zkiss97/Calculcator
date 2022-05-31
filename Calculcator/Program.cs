@@ -4,20 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Calculcator
+namespace Calculator
 {
-    class Khalculator
+    public class Khalculator
     {
         private double A;
         private double B;
         private char X;
 
         public Khalculator()
-        {
-            this.A = A;
-            this.B = B;
-            this.X = X;
-        }
+        {        }
 
         public double Addition(double A, double B)
         {
